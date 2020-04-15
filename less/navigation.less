@@ -1,12 +1,17 @@
 // Navigation Styles here
 
 nav{
+
+    border-bottom: 2px dashed @navigation-border;
+    
+.container{
     display:flex;
     justify-content: space-between;
    align-items:center;
    padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
-    padding:2% 20%;
+   padding:2% 0;
+
+}//end of .container
 
    .links{
     font-size: 1.6rem;
@@ -16,6 +21,7 @@ nav{
 
     @media @mobile{
       width:100%;
+    //   margin:0 auto;
     }
     a{
 text-decoration: none;
